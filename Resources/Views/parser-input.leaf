@@ -1,0 +1,21 @@
+#extend("base")
+
+#export("head") {
+<title>ANTLR Swift Demo</title>
+<style>
+* {
+    font-family: sans-serif;
+}
+</style>
+}
+
+#export("body") {
+<h1>ANTLR Swift Demo</h1>
+
+<p>#(responseText)</p>
+
+<form action='/' method='POST'>
+  <textarea name='text' rows='4' cols='50'>#(originalText)</textarea>
+  <input type='submit'>
+</form>
+}
