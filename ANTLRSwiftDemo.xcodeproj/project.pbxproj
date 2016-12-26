@@ -20388,8 +20388,8 @@ ln -sf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${PROJECT_TEMP_DIR}/Symlin
       OBJ_730 = {
          isa = "PBXFileReference";
          name = "module.modulemap";
-         path = "/Users/ewan/ANTLRSwiftDemo/ANTLRSwiftDemo.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap";
-         sourceTree = "<group>";
+         path = "ANTLRSwiftDemo.xcodeproj/GeneratedModuleMap/CLibreSSL/module.modulemap";
+         sourceTree = "SOURCE_ROOT";
       };
       OBJ_731 = {
          isa = "PBXGroup";
