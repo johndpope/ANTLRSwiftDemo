@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40F3034A1E10A7EA00A68FD5 /* GolangBaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F303361E10A7BE00A68FD5 /* GolangBaseListener.swift */; };
+		40F3034B1E10A7EA00A68FD5 /* GolangBaseVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F303371E10A7BE00A68FD5 /* GolangBaseVisitor.swift */; };
+		40F3034C1E10A7EA00A68FD5 /* GolangLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F303381E10A7BE00A68FD5 /* GolangLexer.swift */; };
+		40F3034D1E10A7EA00A68FD5 /* GolangLexerATN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3033A1E10A7BE00A68FD5 /* GolangLexerATN.swift */; };
+		40F3034E1E10A7EA00A68FD5 /* GolangListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3033B1E10A7BE00A68FD5 /* GolangListener.swift */; };
+		40F3034F1E10A7EA00A68FD5 /* GolangParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3033C1E10A7BE00A68FD5 /* GolangParser.swift */; };
+		40F303501E10A7EA00A68FD5 /* GolangParserATN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3033D1E10A7BE00A68FD5 /* GolangParserATN.swift */; };
+		40F303511E10A7EA00A68FD5 /* GolangVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F3033E1E10A7BE00A68FD5 /* GolangVisitor.swift */; };
 		OBJ_1397 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Array.swift */; };
 		OBJ_1398 /* Bool+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Bool+String.swift */; };
 		OBJ_1399 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Box.swift */; };
@@ -4562,6 +4570,16 @@
 
 /* Begin PBXFileReference section */
 		40F3017D1E109F5A00A68FD5 /* Antlr4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Antlr4.xcodeproj; path = ../uum/antlr4/runtime/Swift/Antlr4.xcodeproj; sourceTree = "<group>"; };
+		40F303351E10A7BE00A68FD5 /* Golang.tokens */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Golang.tokens; sourceTree = "<group>"; };
+		40F303361E10A7BE00A68FD5 /* GolangBaseListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangBaseListener.swift; sourceTree = "<group>"; };
+		40F303371E10A7BE00A68FD5 /* GolangBaseVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangBaseVisitor.swift; sourceTree = "<group>"; };
+		40F303381E10A7BE00A68FD5 /* GolangLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangLexer.swift; sourceTree = "<group>"; };
+		40F303391E10A7BE00A68FD5 /* GolangLexer.tokens */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GolangLexer.tokens; sourceTree = "<group>"; };
+		40F3033A1E10A7BE00A68FD5 /* GolangLexerATN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangLexerATN.swift; sourceTree = "<group>"; };
+		40F3033B1E10A7BE00A68FD5 /* GolangListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangListener.swift; sourceTree = "<group>"; };
+		40F3033C1E10A7BE00A68FD5 /* GolangParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangParser.swift; sourceTree = "<group>"; };
+		40F3033D1E10A7BE00A68FD5 /* GolangParserATN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangParserATN.swift; sourceTree = "<group>"; };
+		40F3033E1E10A7BE00A68FD5 /* GolangVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolangVisitor.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Bool+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+String.swift"; sourceTree = "<group>"; };
 		OBJ_100 /* bio_lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bio_lib.c; sourceTree = "<group>"; };
 		OBJ_1000 /* FrameSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSerializer.swift; sourceTree = "<group>"; };
@@ -6513,6 +6531,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		40F303341E10A7BE00A68FD5 /* AutogenParser */ = {
+			isa = PBXGroup;
+			children = (
+				40F303351E10A7BE00A68FD5 /* Golang.tokens */,
+				40F303361E10A7BE00A68FD5 /* GolangBaseListener.swift */,
+				40F303371E10A7BE00A68FD5 /* GolangBaseVisitor.swift */,
+				40F303381E10A7BE00A68FD5 /* GolangLexer.swift */,
+				40F303391E10A7BE00A68FD5 /* GolangLexer.tokens */,
+				40F3033A1E10A7BE00A68FD5 /* GolangLexerATN.swift */,
+				40F3033B1E10A7BE00A68FD5 /* GolangListener.swift */,
+				40F3033C1E10A7BE00A68FD5 /* GolangParser.swift */,
+				40F3033D1E10A7BE00A68FD5 /* GolangParserATN.swift */,
+				40F3033E1E10A7BE00A68FD5 /* GolangVisitor.swift */,
+			);
+			path = AutogenParser;
+			sourceTree = "<group>";
+		};
 		OBJ_1002 /* Console */ = {
 			isa = PBXGroup;
 			children = (
@@ -7339,6 +7374,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_1342 /* main.swift */,
+				40F303341E10A7BE00A68FD5 /* AutogenParser */,
 				OBJ_1343 /* Controllers */,
 				OBJ_1345 /* Models */,
 			);
@@ -11542,9 +11578,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				40F303501E10A7EA00A68FD5 /* GolangParserATN.swift in Sources */,
+				40F303511E10A7EA00A68FD5 /* GolangVisitor.swift in Sources */,
+				40F3034A1E10A7EA00A68FD5 /* GolangBaseListener.swift in Sources */,
+				40F3034F1E10A7EA00A68FD5 /* GolangParser.swift in Sources */,
 				OBJ_3518 /* main.swift in Sources */,
+				40F3034B1E10A7EA00A68FD5 /* GolangBaseVisitor.swift in Sources */,
 				OBJ_3519 /* PostController.swift in Sources */,
+				40F3034C1E10A7EA00A68FD5 /* GolangLexer.swift in Sources */,
+				40F3034E1E10A7EA00A68FD5 /* GolangListener.swift in Sources */,
 				OBJ_3520 /* Post.swift in Sources */,
+				40F3034D1E10A7EA00A68FD5 /* GolangLexerATN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
